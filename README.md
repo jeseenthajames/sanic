@@ -2,96 +2,86 @@
 
 
 
-# [Project Name] 🎯
+# Sanic (Gotta go fast)🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Kirkversary
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Jeseentha James - Sahrdaya College of Engineering and Technology
 
 ### Project Description
-[2-3 lines about what your project does]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Why should the mouse cursor be allowed to live a peaceful, productive life?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+A tiny PNG Sonic the Hedgehog continuously chases the mouse cursor as a Windows desktop overlay.
+
+When freaky Sonic catches the cursor:
+
+An MP3 sound plays once.
+Notepad opens.
+Chrome opens.
+CMD opens.
+The abomination of a hedgehog is teleported back to (0, 0).
+The chase begins again.
+
+Because apparently, touching the cursor wasn't enough.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+Language: Python
+Framework: Win32 API
+Libraries:
+PyWin32
+Pillow
+ctypes
+Tools:
+Visual Studio Code
+Git
+GitHub
+Windows 11
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+Clone the repository:
+
+git clone <YOUR-GITHUB-REPOSITORY-LINK>
+cd snail_cursor_chaser
+
+Install the required libraries:
+
+pip install pywin32 pillow
+
+Make sure these files are present in the project folder:
+
+snail_cursor_chaser/
+│
+├── main.py
+├── icon.png
+└── sound.mp3
 
 # Run
-[commands]
+python main.py
+
+The snail will appear as a desktop overlay and start chasing the cursor.
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+Not really easy to obtain these, as is the working of the program 
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+moving sonic -> touch the cursor -> kaboom
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
